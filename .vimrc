@@ -7,6 +7,9 @@ set ruler
 set ignorecase
 set smartcase
 syntax enable
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 colorscheme solarized 
 set background=dark
