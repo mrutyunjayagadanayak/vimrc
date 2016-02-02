@@ -100,3 +100,9 @@ map <leader>h :bprevious<CR>
 " " This replicates the idea of closing a tab
 map <leader>bq :bp <BAR> bd #<CR>
 " "
+" "code to move between splits
+nmap <silent> <A-Up> :wincmd k<CR>
+nmap <silent> <A-Down> :wincmd j<CR>
+nmap <silent> <A-Left> :wincmd h<CR>
+nmap <silent> <A-Right> :wincmd l<CR>
+
