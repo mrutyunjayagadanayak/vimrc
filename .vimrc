@@ -10,8 +10,8 @@ syntax enable
 set tabstop=4
 set shiftwidth=4
 set expandtab
-
-colorscheme solarized 
+set t_Co=256
+colorscheme elflord 
 set background=dark
 set number
 if has("gui_running")
@@ -32,11 +32,11 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+" All of your Plugins must be added before the following line
 Plugin 'davidhalter/jedi-vim'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
-" All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 let g:ycm_global_ycm_extra_conf = "~/.vim/ycm_extra_conf.py"
